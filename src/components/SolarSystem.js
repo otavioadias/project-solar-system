@@ -2,7 +2,6 @@ import React from 'react';
 import Title from './Title';
 import PlanetCard from './PlanetCard';
 import planets from '../data/planets';
-import Missions from './Missions';
 
 const SolarSystem = () => (
   <div div data-testid="solar-system">
