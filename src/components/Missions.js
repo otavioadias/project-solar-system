@@ -6,7 +6,7 @@ import MissionCard from './MissionCard';
 const Missions = () => (
   <div data-testid="missions">
     <Title headline="Missões" />
-    <section>
+    <section className="missions-card">
       {missions.map((planet) => (
         <MissionCard
           key={ planet.name }

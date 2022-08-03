@@ -1,3 +1,121 @@
+@import url('http://fonts.cdnfonts.com/css/nasa');
+
 .App {
   text-align: center;
 }
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+ }
+
+h1, h2{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Nasa', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.containerPlanet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.solar-system {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+#planet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Mercúrio {
+  width: 40px;
+}
+
+#Vênus {
+  width: 60px;
+}
+
+#Terra {
+  width: 70px;
+}
+
+#Marte {
+  width: 50px;
+}
+
+#Júpiter {
+  width: 200px;
+}
+
+#Saturno {
+  width: 200px;
+}
+
+#Urano, #Netuno {
+  width: 110px;
+}
+
+#Mercúrio:hover, #Vênus:hover, #Terra:hover, #Marte:hover, #Júpiter:hover, #Saturno:hover, #Urano:hover, #Netuno:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.4);
+}
+
+.planet-name, h3 {
+  display: flex;
+  font-family: 'Nasa', sans-serif;
+}
+
+h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.missions-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  color: white;
+}
+
+.mission-card {
+  border: 2px solid white;
+  width: 10%;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.mission-card:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.Planetas, .Missões {
+  padding: 10px;
+  color: rgb(255, 0, 0);
+  font-size: 35px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-right: 6.5%;
+  margin-left: 7%;
+}
+
